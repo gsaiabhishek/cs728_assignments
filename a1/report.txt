@@ -1,0 +1,22 @@
+Loss and accuracy values reported are the best values observed during training.
+Labels: 0->noun compund is compositional, 1-> non-compositional. (Same mapping as present in the provided dataset)
+
+Glove embeddings(300 dimensions), merge_type = concat:
+threshold	r1_best_accuracy	r2_best_accuracy
+0.1 	0.77	0.55
+0.25 	0.75	0.55
+0.5 	0.7 	0.57
+0.75 	0.81	0.72
+0.9 	0.96	0.92
+
+bert(base uncased from transformers) pre-trained embeddings(768 dimensions), merge_type = concat:
+threshold	r1_best_accuracy	r2_best_accuracy
+0.1 	0.82	0.87
+0.25 	0.75	0.68
+0.5 	0.8 	0.66
+0.75 	0.81	0.77
+0.9 	0.97	0.93
+
+If the value of output of FeedForwardNetwork is > threshold, it is taken as class 1(non-compositional), else it is taken as 0(compositional).
+
+For both glove and bert_pre_trained embeddings, threshold of 0.9 is giving good accuracies.

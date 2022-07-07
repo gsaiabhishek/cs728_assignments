@@ -1,0 +1,55 @@
+Experiment type: 0_0_1
+Note: convention is <1/0>_<1/0>_<1/0>. Where 1/0 corresponds to indiviudal word bert embed, compound word bert embed, contextual sentences bert embed used or not respectively. all 0's mean glove embed
+Epoch 0: tn_a: 0.3858 | tn_l: 2186.3409 ||  || t_a0: 0.0 | t_l0: 0 | 
+Epoch 2: tn_a: 0.4843 | tn_l: 1815.6029 ||  || t_a0: 0.0 | t_l0: 0 | 
+Epoch 4: tn_a: 0.5556 | tn_l: 1539.2148 ||  || t_a0: 0.0 | t_l0: 0 | 
+Epoch 6: tn_a: 0.6102 | tn_l: 1331.1653 ||  || t_a0: 0.0 | t_l0: 0 | 
+Epoch 8: tn_a: 0.6544 | tn_l: 1160.1166 ||  || t_a0: 0.0 | t_l0: 0 | 
+Epoch 10: tn_a: 0.6993 | tn_l: 997.974 ||  || t_a0: 0.0 | t_l0: 0 | 
+Epoch 12: tn_a: 0.7297 | tn_l: 891.4113 ||  || t_a0: 0.0 | t_l0: 0 | 
+Epoch 14: tn_a: 0.7547 | tn_l: 818.5787 ||  || t_a0: 0.0 | t_l0: 0 | 
+Epoch 16: tn_a: 0.7749 | tn_l: 750.0512 ||  || t_a0: 0.0 | t_l0: 0 | 
+Epoch 18: tn_a: 0.7864 | tn_l: 713.4447 ||  || t_a0: 0.0 | t_l0: 0 | 
+Epoch 20: tn_a: 0.7932 | tn_l: 692.879 ||  || t_a0: 0.0 | t_l0: 0 | 
+Epoch 22: tn_a: 0.8046 | tn_l: 645.199 ||  || t_a0: 0.0 | t_l0: 0 | 
+Epoch 24: tn_a: 0.8188 | tn_l: 593.4877 ||  || t_a0: 0.0 | t_l0: 0 | 
+Epoch 26: tn_a: 0.8282 | tn_l: 557.9604 ||  || t_a0: 0.0 | t_l0: 0 | 
+Epoch 28: tn_a: 0.8374 | tn_l: 524.9464 ||  || t_a0: 0.0 | t_l0: 0 | 
+Epoch 30: tn_a: 0.8411 | tn_l: 515.2853 ||  || t_a0: 0.0 | t_l0: 0 | 
+Epoch 32: tn_a: 0.8466 | tn_l: 496.1016 ||  || t_a0: 0.0 | t_l0: 0 | 
+Epoch 34: tn_a: 0.8598 | tn_l: 445.7205 ||  || t_a0: 0.0 | t_l0: 0 | 
+Epoch 36: tn_a: 0.8635 | tn_l: 430.6144 ||  || t_a0: 0.0 | t_l0: 0 | 
+Epoch 38: tn_a: 0.8593 | tn_l: 446.2862 ||  || t_a0: 0.0 | t_l0: 0 | 
+Epoch 40: tn_a: 0.8694 | tn_l: 415.934 ||  || t_a0: 0.0 | t_l0: 0 | 
+Epoch 42: tn_a: 0.8708 | tn_l: 410.2146 ||  || t_a0: 0.0 | t_l0: 0 | 
+Epoch 44: tn_a: 0.8713 | tn_l: 406.444 ||  || t_a0: 0.0 | t_l0: 0 | 
+Epoch 46: tn_a: 0.8785 | tn_l: 378.0995 ||  || t_a0: 0.0 | t_l0: 0 | 
+Epoch 48: tn_a: 0.8707 | tn_l: 411.8774 ||  || t_a0: 0.0 | t_l0: 0 | 
+Epoch 50: tn_a: 0.879 | tn_l: 380.011 ||  || t_a0: 0.0 | t_l0: 0 | 
+Epoch 52: tn_a: 0.8813 | tn_l: 376.7942 ||  || t_a0: 0.0 | t_l0: 0 | 
+Epoch 54: tn_a: 0.883 | tn_l: 366.2431 ||  || t_a0: 0.0 | t_l0: 0 | 
+Epoch 56: tn_a: 0.8888 | tn_l: 345.6777 ||  || t_a0: 0.0 | t_l0: 0 | 
+Epoch 58: tn_a: 0.8757 | tn_l: 392.334 ||  || t_a0: 0.0 | t_l0: 0 | 
+Epoch 60: tn_a: 0.889 | tn_l: 348.3544 ||  || t_a0: 0.0 | t_l0: 0 | 
+Epoch 62: tn_a: 0.883 | tn_l: 370.1879 ||  || t_a0: 0.0 | t_l0: 0 | 
+Epoch 64: tn_a: 0.8885 | tn_l: 357.6528 ||  || t_a0: 0.0 | t_l0: 0 | 
+Epoch 66: tn_a: 0.8871 | tn_l: 361.2266 ||  || t_a0: 0.0 | t_l0: 0 | 
+Epoch 68: tn_a: 0.8882 | tn_l: 351.2122 ||  || t_a0: 0.0 | t_l0: 0 | 
+Epoch 70: tn_a: 0.8884 | tn_l: 344.8017 ||  || t_a0: 0.0 | t_l0: 0 | 
+Epoch 72: tn_a: 0.8921 | tn_l: 337.5235 ||  || t_a0: 0.0 | t_l0: 0 | 
+Epoch 74: tn_a: 0.8844 | tn_l: 367.2346 ||  || t_a0: 0.0 | t_l0: 0 | 
+Epoch 76: tn_a: 0.8921 | tn_l: 342.8996 ||  || t_a0: 0.0 | t_l0: 0 | 
+Epoch 78: tn_a: 0.8949 | tn_l: 328.28 ||  || t_a0: 0.0 | t_l0: 0 | 
+Epoch 80: tn_a: 0.8964 | tn_l: 320.8721 ||  || t_a0: 0.0 | t_l0: 0 | 
+Epoch 82: tn_a: 0.9023 | tn_l: 299.9029 ||  || t_a0: 0.0 | t_l0: 0 | 
+Epoch 84: tn_a: 0.8913 | tn_l: 339.1824 ||  || t_a0: 0.0 | t_l0: 0 | 
+Epoch 86: tn_a: 0.8889 | tn_l: 350.8684 ||  || t_a0: 0.0 | t_l0: 0 | 
+Epoch 88: tn_a: 0.8951 | tn_l: 329.4968 ||  || t_a0: 0.0 | t_l0: 0 | 
+Epoch 90: tn_a: 0.8952 | tn_l: 328.8458 ||  || t_a0: 0.0 | t_l0: 0 | 
+Epoch 92: tn_a: 0.8931 | tn_l: 335.4816 ||  || t_a0: 0.0 | t_l0: 0 | 
+Epoch 94: tn_a: 0.8916 | tn_l: 342.7927 ||  || t_a0: 0.0 | t_l0: 0 | 
+Epoch 96: tn_a: 0.8986 | tn_l: 316.1551 ||  || t_a0: 0.0 | t_l0: 0 | 
+Epoch 98: tn_a: 0.8996 | tn_l: 313.3705 ||  || t_a0: 0.0 | t_l0: 0 | 
+Epoch 99: tn_a: 0.9042 | tn_l: 293.9942 ||  || t_a0: 0.0 | t_l0: 0 | 
+Best Train Acc: 0.9042058998342041
+Best Test Acc: 0.0

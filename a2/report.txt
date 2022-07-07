@@ -1,0 +1,50 @@
+Part A:
+-------------------------------------------------------------
+
+As discussed in README.txt, I trained 4 different models(model's FFN dimensions given in README.txt):
+
+model info | expmnt_no used in run.py | best trn accuracy(%) | best test accuracy(%)
+only glove embed individual words are used | 0 | 99.4 | 72.9
+only bert embed from individual words are used | 1 | 91.2 | 68.9
+both bert embed from individual words and compund word are used | 2 | 79.7 | 65.5
+only bert embed from contextual sentences are used | 3 | 90.4 | - 
+
+The bert embeddings from contextual sentences are definitely hepful but without them too, the model
+is doing pretty good in terms of text accuracy, the reason for which might be that the bert is already 
+well trained. The test accuracy using glove embeddings is good too.
+
+Part B:
+-------------------------------------------------------------
+
+How do we find and select potential substitutions?
+We can find the words to substitute by fining the parent type of the words in a corpus(during NED) and then
+substitue the given word with the other 'top m'(found via similarity using glove or other embeddings) 
+children of the parent type. Or we can use a entity-linked KG and try to substitute with the 'top m' 
+neighbours of the given word node in KG which have same part of speech and/or very near in terms of 
+glove or other embeddings. We should do multiple substitutions to avoid any accidental substitution 
+to a non-compositional noun compound during substitution.
+
+How do we interpret the contrast in counts?
+The higher the difference in counts, the rare the substituted words are, the more non-compositional our
+given word is. But if we have comparable frequencies of given word with the substituted word, the more 
+compositional given word is. To find suitable threshold for this, we need to have gold labeled data. 
+For example, snake oil frequency using google n-gram is 6.16E-6%, while lizard oil frequency is 1.16E-9%, with
+an order of 3 difference we can say that snake oil is non-compositional. But we have to do this with
+multiple substitutions for reasons mentioned in previous question.
+
+
+How do we aggregate these contrasts?
+Lets say we have multiple substitutions for the given word and we have the frequency ratios of those substitutions
+with respect to given word. We can judge if specific 'top k' number of those ratios cross the threshold set earlier,
+then we can say that the given word is compositional, this is a simple aggregation using count of substitutions 
+which exceed threshold. Or we can check the if the sum of the ratios cross an aggreate-threshold.
+Another way is to map the ratios to a value between 0(compositional) to 1(non-compositional) using a 
+feed forward neural network(FFN) while training. Here we need to fix the number of substitutions we are going to 
+do before hand.
+
+
+How should we combine signals from substitution with signals from comparing embeddings (distributional information)?
+May be the output of FFN described in previous question(call it score_0) and the embeddings(or the ouput of a FFN whose input
+are embeddings) are to be feeded to another FFN so as to get a score of compositional or not. Or if we have
+contextual sentences, the we can use transformers or LSTMs where the score_0 is passed to the FFN at the end of
+transformers/LSTMs to get a new score for deciding whether noun compound is compositional or not.

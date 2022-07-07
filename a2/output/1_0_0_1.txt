@@ -1,0 +1,38 @@
+Experiment type: 1_0_0
+Note: convention is <1/0>_<1/0>_<1/0>. Where 1/0 corresponds to indiviudal word bert embed, compound word bert embed, contextual sentences bert embed used or not respectively. all 0's mean glove embed
+Fine_NCDataset: 0 number of words bert embeddings have been found
+Fine_NCDataset: 1000 number of words bert embeddings have been found
+Fine_NCDataset: 2000 number of words bert embeddings have been found
+Fine_NCDataset: 3000 number of words bert embeddings have been found
+Fine_NCDataset: 4000 number of words bert embeddings have been found
+Fine_NCDataset: 5000 number of words bert embeddings have been found
+Fine_NCDataset: 6000 number of words bert embeddings have been found
+Fine_NCDataset: 7000 number of words bert embeddings have been found
+Fine_NCDataset: 8000 number of words bert embeddings have been found
+Fine_NCDataset: 9000 number of words bert embeddings have been found
+Fine_NCDataset: 10000 number of words bert embeddings have been found
+Fine_NCDataset: 11000 number of words bert embeddings have been found
+Fine_NCDataset: 12000 number of words bert embeddings have been found
+Fine_NCDataset: 13000 number of words bert embeddings have been found
+Fine_NCDataset: 14000 number of words bert embeddings have been found
+Fine_NCDataset: 15000 number of words bert embeddings have been found
+Fine_NCDataset: 16000 number of words bert embeddings have been found
+Fine_NCDataset: 17000 number of words bert embeddings have been found
+Fine_NCDataset: 18000 number of words bert embeddings have been found
+Fine_NCDataset: 19000 number of words bert embeddings have been found
+No of NaN bert embeds ignored in Fine_NCDataset_1_and_2: 100
+Epoch 0: tn_a: 0.6028 | tn_l: 173.5094 ||  || t_a0: 0.5756 | t_l0: 47.8793 | 
+Epoch 2: tn_a: 0.6896 | tn_l: 132.5765 ||  || t_a0: 0.6348 | t_l0: 42.3611 | 
+Epoch 4: tn_a: 0.6894 | tn_l: 130.4775 ||  || t_a0: 0.6162 | t_l0: 44.4356 | 
+Epoch 6: tn_a: 0.725 | tn_l: 110.5184 ||  || t_a0: 0.6356 | t_l0: 41.3924 | 
+Epoch 8: tn_a: 0.7553 | tn_l: 99.4969 ||  || t_a0: 0.6516 | t_l0: 39.6895 | 
+Epoch 10: tn_a: 0.7713 | tn_l: 91.5128 ||  || t_a0: 0.6626 | t_l0: 39.1638 | 
+Epoch 12: tn_a: 0.7498 | tn_l: 101.0737 ||  || t_a0: 0.639 | t_l0: 43.5509 | 
+Epoch 14: tn_a: 0.7562 | tn_l: 100.3207 ||  || t_a0: 0.6527 | t_l0: 43.4668 | 
+Epoch 16: tn_a: 0.7473 | tn_l: 101.6928 ||  || t_a0: 0.6477 | t_l0: 45.161 | 
+Epoch 18: tn_a: 0.8087 | tn_l: 72.2437 ||  || t_a0: 0.6689 | t_l0: 40.3562 | 
+Epoch 20: tn_a: 0.7937 | tn_l: 80.8532 ||  || t_a0: 0.6542 | t_l0: 43.5884 | 
+Epoch 22: tn_a: 0.7609 | tn_l: 91.8226 ||  || t_a0: 0.6343 | t_l0: 47.1613 | 
+Epoch 24: tn_a: 0.7671 | tn_l: 89.2322 ||  || t_a0: 0.6194 | t_l0: 49.0207 | 
+Best Train Acc: 0.8087367178276269
+Best Test Acc: 0.6689401888772298

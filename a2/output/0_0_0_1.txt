@@ -1,0 +1,17 @@
+Experiment type: 0_0_0
+Note: convention is <1/0>_<1/0>_<1/0>. Where 1/0 corresponds to indiviudal word bert embed, compound word bert embed, contextual sentences bert embed used or not respectively. all 0's mean glove embed
+Epoch 0: tn_a: 0.6691 | tn_l: 142.2589 ||  || t_a0: 0.6213 | t_l0: 41.6113 | 
+Epoch 2: tn_a: 0.7604 | tn_l: 97.792 ||  || t_a0: 0.6639 | t_l0: 36.0549 | 
+Epoch 4: tn_a: 0.8096 | tn_l: 77.0737 ||  || t_a0: 0.6777 | t_l0: 35.2056 | 
+Epoch 6: tn_a: 0.8546 | tn_l: 58.8685 ||  || t_a0: 0.6887 | t_l0: 34.9837 | 
+Epoch 8: tn_a: 0.8993 | tn_l: 41.9243 ||  || t_a0: 0.702 | t_l0: 35.3356 | 
+Epoch 10: tn_a: 0.9357 | tn_l: 27.5303 ||  || t_a0: 0.7088 | t_l0: 36.4866 | 
+Epoch 12: tn_a: 0.9603 | tn_l: 17.3661 ||  || t_a0: 0.7161 | t_l0: 38.5035 | 
+Epoch 14: tn_a: 0.9787 | tn_l: 10.6754 ||  || t_a0: 0.7216 | t_l0: 40.5735 | 
+Epoch 16: tn_a: 0.9881 | tn_l: 6.3383 ||  || t_a0: 0.7197 | t_l0: 42.2007 | 
+Epoch 18: tn_a: 0.9926 | tn_l: 3.7721 ||  || t_a0: 0.7223 | t_l0: 43.224 | 
+Epoch 20: tn_a: 0.994 | tn_l: 2.5026 ||  || t_a0: 0.7278 | t_l0: 43.8406 | 
+Epoch 22: tn_a: 0.9942 | tn_l: 1.9971 ||  || t_a0: 0.7286 | t_l0: 44.8931 | 
+Epoch 24: tn_a: 0.9943 | tn_l: 1.7449 ||  || t_a0: 0.7294 | t_l0: 45.8716 | 
+Best Train Acc: 0.9942581234503458
+Best Test Acc: 0.7293841336116911

@@ -1,0 +1,1 @@
+This directory store the bert embeddings so as to not recompute them again.
